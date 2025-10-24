@@ -108,9 +108,10 @@ numpy                # Numerical computing
 ```
 steam-marketplace-analysis/
 │
-├── 📓 Steam_databricks.ipynb                    # Main analysis notebook (Databricks)
+├── 📓 Steam_databricks.ipynb            # Main analysis notebook (Databricks)
 ├── 📊 steam_game_output.json            # Raw dataset
 ├── 📝 README.md                         # This file
+├── 📝 Steam_databricks.lnk              # Link to Public Notebook on Databricks Community Edition
 ├── 🖼️ img/                              # Doc with exported charts and graphs
 
 ```

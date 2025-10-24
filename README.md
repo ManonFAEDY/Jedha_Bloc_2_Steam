@@ -108,22 +108,23 @@ numpy                # Numerical computing
 ```
 steam-marketplace-analysis/
 │
-├── 📓 notebook.ipynb                    # Main analysis notebook (Databricks)
+├── 📓 Steam_databricks.ipynb                    # Main analysis notebook (Databricks)
 ├── 📊 steam_game_output.json            # Raw dataset
 ├── 📝 README.md                         # This file
-├── 🖼️ img/                              # Exported charts and graphs
-│   ├── genre_distribution.png
-│   ├── price_analysis.png
-│   ├── rating_correlation.png
-│   └── temporal_trends.png
-└── 📄 requirements.txt                  # Python dependencies (if local)
+├── 🖼️ img/                              # Doc with exported charts and graphs
+
 ```
 
 ---
 
 ## 💻 Installation
 
-### Option 1: Databricks Free Edition (Recommended)
+### Option 1 : Databricks Community Edition
+
+**Click on the link to open the notebook in Databricks Community Edition**
+   - [Public Notebook on Databricks Community Edition](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/12985744048688/658096807172125/11395721381550/latest.html)
+
+### Option 2: Databricks Free Edition
 
 1. **Create a Databricks account**
    - Go to [Databricks Free Edition](https://www.databricks.com/fr/learn/free-edition)
@@ -131,7 +132,7 @@ steam-marketplace-analysis/
 
 2. **Import the notebook**
    - Click "Import" in Databricks workspace
-   - Upload `notebook.ipynb`
+   - Upload `Steam_databricks.ipynb`
 
 3. **Upload the dataset**
    - Go to "Data" tab
@@ -140,20 +141,6 @@ steam-marketplace-analysis/
 4. **Run the notebook**
    - Attach notebook to cluster
    - Execute cells sequentially
-
-### Option 2: Local Setup (Alternative)
-
-```bash
-# Clone repository
-git clone https://github.com/your-username/steam-marketplace-analysis.git
-cd steam-marketplace-analysis
-
-# Install dependencies
-pip install pyspark pandas matplotlib seaborn plotly numpy
-
-# Launch Jupyter with PySpark
-jupyter notebook
-```
 
 ---
 
@@ -178,79 +165,10 @@ jupyter notebook
 - **Temporal Trends**: Release patterns over time
 - **Platform Distribution**: Windows, Mac, Linux support
 
-### 4. Advanced Analytics
-- **Correlation Analysis**: Identify success factors
-- **Segmentation**: Cluster games by characteristics
-- **Trend Detection**: Identify emerging genres
-- **Price Optimization**: Pricing strategy analysis
-
-### 5. Visualization & Insights
+### 4. Visualization & Insights
 - Create compelling visualizations
 - Extract actionable insights
 - Formulate strategic recommendations
-
----
-
-## 📈 Key Insights
-
-> ⚠️ *Section to be completed after analysis*
-
-**Expected insights examples:**
-
-### Market Trends
-- 📈 Most popular game genres (Action, RPG, Strategy...)
-- 💰 Optimal pricing strategies by genre
-- ⭐ Correlation between price and ratings
-
-### Success Factors
-- 🎯 Features of highly-rated games
-- 🕐 Best release timing (seasonality)
-- 🌍 Regional preferences and differences
-
-### Competitive Landscape
-- 🏆 Top publishers and developers
-- 📊 Market share by genre
-- 🔥 Emerging trends and opportunities
-
----
-
-## 🖼️ Visualizations
-
-Key visualizations generated during analysis:
-
-1. **Genre Distribution** - Popularity of game categories
-2. **Price Analysis** - Pricing strategies across genres
-3. **Rating Correlation** - Factors influencing user ratings
-4. **Temporal Trends** - Game releases over time
-5. **Platform Distribution** - OS support analysis
-6. **Review Sentiment** - User satisfaction patterns
-
-*All visualizations available in `/visualizations` folder*
-
----
-
-## 🎯 Strategic Recommendations
-
-> ⚠️ *To be completed based on analysis results*
-
-**Example recommendations:**
-- 🎮 Target genre for new game launch
-- 💵 Suggested pricing strategy
-- 🗓️ Optimal release window
-- ⭐ Key features to implement
-- 🌐 Priority markets for launch
-
----
-
-## 🔮 Future Improvements
-
-- [ ] Real-time data pipeline from Steam API
-- [ ] Sentiment analysis on user reviews
-- [ ] Predictive modeling for game success
-- [ ] Competitor benchmarking analysis
-- [ ] Machine learning for price optimization
-- [ ] Interactive dashboard (Dash/Streamlit)
-- [ ] Time series forecasting for trends
 
 ---
 
@@ -300,12 +218,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Databricks Community** for free cloud platform
 - **Apache Spark** for distributed computing framework
 - **Ubisoft** for the project opportunity
-
----
-
-## 📞 Contact
-
-For questions or collaboration opportunities, feel free to reach out!
 
 ---
 
